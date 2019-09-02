@@ -30,7 +30,7 @@ const TicTacToeClient = Client({
   game: TicTacToe,
   board: TicTacToeBoard,
   //multiplayer: { local: true }
-  multiplayer: { server: '192.168.4.47:8000' }
+  multiplayer: { server: 'localhost:8000' }
 });
 
 const App = () => (

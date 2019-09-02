@@ -8,13 +8,13 @@ import { TicTacToe } from "./game";
 /*
 const TicTacToeClient = Client({
   game: TicTacToe,
-  multiplayer: { server: '192.168.4.47:8000' }
+  multiplayer: { server: 'localhost:8000' }
 });
 */
 
 const spec = {
     game: TicTacToe,
-    multiplayer: { server: '192.168.4.47:8000' }
+    multiplayer: { server: 'localhost:8000' }
 };
 
 const client1 = Client({ ...spec, playerID: '1' });
